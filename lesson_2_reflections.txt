@@ -11,4 +11,10 @@ logical change?
 	file in the staging as compares to the version currently saved in the 
 	working directory.
 
-	
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+	When you want to test out an experiemental feature that may or may not 
+	be incorporated later without while maintaining (bug fixing and such) 
+	the main (master) string of files.
+
