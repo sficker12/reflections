@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	Initializing a git repository creates the file .git.  This will allow 
+	commits to be saved for this repository and keep all history of commits.
+
