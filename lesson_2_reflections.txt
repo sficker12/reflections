@@ -18,3 +18,17 @@ history organized? How would branches help?
 	be incorporated later without while maintaining (bug fixing and such) 
 	the main (master) string of files.
 
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams easily show how each commit is interconnected and related to 
+	one another.  They can show all the branches created for a particular 
+	repository and the trail to get to a certain branch from any point.
+
+What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+
+	Merging two branches essentially removes one of the branches from the 
+	point in time the branches were merged and onward.  We represent the 
+	merged commit as an entity with the two parents (latest commits of each 
+	branch) because they are both sourced to create this one entity.
+
