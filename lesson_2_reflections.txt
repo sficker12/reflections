@@ -3,3 +3,12 @@ What happens when you initialize a repository? Why do you need to do it?
 	Initializing a git repository creates the file .git.  This will allow 
 	commits to be saved for this repository and keep all history of commits.
 
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+	Place the file you changed into the staging are using git add and then 
+	use git diff without any arguments to print out the changes made to the 
+	file in the staging as compares to the version currently saved in the 
+	working directory.
+
+	
